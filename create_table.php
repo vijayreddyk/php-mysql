@@ -14,4 +14,5 @@ if($conn->query($sql) === TRUE){
 else{
 	echo "not able to create database because ".$conn->connect_error;
 }
+$conn ->close();
 ?>
